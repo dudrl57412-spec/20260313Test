@@ -31,13 +31,14 @@ a {
 }
 /* 상단메뉴 */
 .list {
+  gap: 20px ;
         position: absolute;
 right: 20px;
 bottom: 0;
   display: flex;
   width: 700px;
   height: 50px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .list > li {
   width: calc(100% / 4);
